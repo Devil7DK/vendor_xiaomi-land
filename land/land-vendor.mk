@@ -1023,8 +1023,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/xiaomi/land/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/land/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
-    vendor/xiaomi/land/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
-    vendor/xiaomi/land/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/land/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/xiaomi/land/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -1045,8 +1043,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/xiaomi/land/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/xiaomi/land/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
-    vendor/xiaomi/land/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
-    vendor/xiaomi/land/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/xiaomi/land/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
     vendor/xiaomi/land/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
@@ -1062,6 +1058,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/xiaomi/land/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/xiaomi/land/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
+    vendor/xiaomi/land/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/xiaomi/land/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/xiaomi/land/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/xiaomi/land/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
@@ -1125,8 +1122,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/xiaomi/land/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
-    vendor/xiaomi/land/proprietary/vendor/etc/perf/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile1.conf \
+    vendor/xiaomi/land/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
+    vendor/xiaomi/land/proprietary/vendor/etc/perf/gamedwhitelist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/gamedwhitelist.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/land/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
@@ -1155,7 +1152,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/keystore.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/vulkan.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsSDP.so \
@@ -1248,12 +1244,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libqti-iopd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/xiaomi/land/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
     vendor/xiaomi/land/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
@@ -1289,8 +1282,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
@@ -1336,7 +1327,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/vulkan.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
@@ -1453,12 +1443,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libqti-iopd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
@@ -1504,8 +1491,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
@@ -1528,8 +1513,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     vendor.qti.hardware.fm@1.0 \
-    vendor.qti.hardware.iop@1.0 \
-    vendor.qti.hardware.iop@2.0 \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
